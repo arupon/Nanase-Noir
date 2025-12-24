@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: st_ch05_JP__Root
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: "\u8A2D\u5B9A"
+    icon: {fileID: 2800000, guid: 4e89a03bdda4567469c660b6e0014078, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: dc4a6edd230b64a48bc2f3deae0a7b7e, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u8868\u60C5"
+    icon: {fileID: 2800000, guid: af1ba8919b0ccb94a99caf43ac36f97d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 5d1282e5f9ee8264b8247464f9902595, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u8863\u88C5"
+    icon: {fileID: 2800000, guid: cc904b43b4a6d4d4986f6bb3feb35d48, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c8478fedaad861445840dea50e832762, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u30CF\u30F3\u30C9\u30B5\u30A4\u30F3\u30D1\u30BF\u30FC\u30F3"
+    icon: {fileID: 2800000, guid: b4a615d4b1248c9499b06aa6ea7adaf3, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: edbee073dbf56af4ba0bfbadc0627795, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u30A8\u30E2\u30FC\u30C8"
+    icon: {fileID: 2800000, guid: 011229dd2f6f5f64f8965a08d3434654, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c345c3a17efea1e4baed36b9310a749c, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u30C4\u30FC\u30EB"
+    icon: {fileID: 2800000, guid: 672468e327179a14e86818848c885911, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 1fc16520a1b5b8e498979d795c23e106, type: 2}
+    subParameters: []
+    labels: []
+  - name: "SDF\u30FB\u9006\u5149"
+    icon: {fileID: 2800000, guid: cc4c13c05f8c4e943885903095b7474a, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: bf4b00c715e72dc449f192c32a9e4307, type: 2}
+    subParameters: []
+    labels: []

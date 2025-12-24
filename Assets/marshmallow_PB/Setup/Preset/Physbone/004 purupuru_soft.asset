@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd61c70d1c550d4f83177eb9119a62a, type: 3}
+  m_Name: 004 purupuru_soft
+  m_EditorClassIdentifier: 
+  pb_preset_name: "\u3077\u308B\u3077\u308B(\u3084\u308F\u3089\u304B\u3081) Jiggly(Soft)"
+  _PhysBone_Pull: 0.1
+  _PhysBone_Momentum: 0.95
+  _PhysBone_Stiffness: 0.05
+  _PhysBone_Gravity: 0.25
+  _PhysBone_GravityFalloff: 1
+  _PhysBone_Immobile: 0.25
+  _PhysBone_Immobile_type: 0
+  _PhysBone_Stretch_Motion: 0.5
+  _PhysBone_Max_Stretch: 0.3
+  _PhysBone_Max_Squish: 0.6
+  _inertia_enabled: 1
+  _inertia_Pull: 0.05
+  _inertia_Momentum: 0.95
+  _inertia_Stiffness: 0.05
+  _inertia_Gravity: 0
+  _inertia_GravityFalloff: 0
+  _inertia_Immobile: 0.5
+  _inertia_Immobile_type: 0
+  _inertia_StretchMotion: 0
+  _inertia_MaxStretch: 0
+  _inertia_MaxSquish: 0
+  _parallelBone_enabled: 1
+  _parallelBone_strengthX: 0.5
+  _parallelBone_strengthY: 0.3
+  _parallelBone_squishStrengthX: 0.5
+  _parallelBone_squishStrengthY: 0.5

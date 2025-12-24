@@ -1,0 +1,20 @@
+{
+    "name": "wataameya.marshmallow_PB.ndmf",
+    "references": [
+        "GUID:efe205ecf8fcf31408ed74b7ad5c4164"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "VRCSDK3A.dll",
+        "VRCSDKBase.dll",
+        "VRC.Collections.dll",
+        "VRC.Dynamics.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

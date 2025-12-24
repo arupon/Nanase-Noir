@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8265ba1b58a4544b8a57873ab1a9142, type: 3}
+  m_Name: 058
+  m_EditorClassIdentifier: 
+  avatar_name: "\u30EB\u30DF\u30CA Lumina"
+  path_breast_L: Armature/Hips/Spine/Chest/Breast_L
+  path_breast_R: Armature/Hips/Spine/Chest/Breast_R
+  avatar_chest_position: {x: -0, y: 1.002, z: 0.015}
+  avatar_chest_rotation: {x: -4.105, y: -0, z: -0}
+  avatar_chest_scale: {x: 1, y: 1, z: 1}
+  mpb_breast_L_position_0: {x: -0.044, y: 0.058, z: 0.038}
+  mpb_breast_L_rotation_0: {x: 3, y: -5, z: -0}
+  mpb_breast_scale_0: {x: 0.6, y: 0.6, z: 0.6}
+  mpb_breast_L_position_100: {x: -0.041, y: 0.05, z: 0.038}
+  mpb_breast_L_rotation_100: {x: 3, y: -10, z: 0}
+  mpb_breast_scale_100: {x: 0.84, y: 0.84, z: 0.84}
+  limit_angle_0: 25
+  limit_angle_100: 30
+  physbone_collision_radius_0: 0.04
+  physbone_collision_radius_100: 0.06
+  breast_collider_radius_0: 0.05
+  breast_collider_radius_100: 0.05
+  buffer_collider_position_0: 0.75
+  buffer_collider_position_100: 0.5
+  path_collider:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  path_PB:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 

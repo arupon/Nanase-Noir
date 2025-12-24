@@ -1,0 +1,32 @@
+{
+    "name": "wataameya.marshmallow_PB",
+    "references": [
+        "GUID:fc900867c0f47cd49b6e2ae4ef907300",
+        "GUID:5ce33783346c3124990afbe7b0390a06"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "VRCSDK3A.dll",
+        "VRCSDKBase.dll",
+        "VRC.Collections.dll",
+        "VRC.Dynamics.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vrchat.avatars",
+            "expression": "3.2.0",
+            "define": "USE_SQUISH"
+        },
+        {
+            "name": "nadena.dev.modular-avatar",
+            "expression": "1.4.0",
+            "define": "USE_MA"
+        }
+    ],
+    "noEngineReferences": false
+}

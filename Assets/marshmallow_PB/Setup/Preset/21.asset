@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c4e784c8c14df742a11963725dd4058, type: 3}
+  m_Name: 21
+  m_EditorClassIdentifier: 
+  avatar_name: "\u30A4\u30E1\u30EA\u30B9 Imeris"
+  path_breast_L: Armature/Hips/Spine/Chest/Breast_L
+  path_breast_R: Armature/Hips/Spine/Chest/Breast_R
+  mpb_breast_L_position_0: {x: -0.0446, y: 0.0278, z: 0.0466}
+  mpb_breast_L_position_100: {x: -0.0449, y: 0.018, z: 0.0495}
+  mpb_breast_L_rotation_0: {x: 3, y: -5, z: 0}
+  mpb_breast_L_rotation_100: {x: 3, y: -5, z: 0}
+  mpb_breast_scale_0: {x: 0.5, y: 0.5, z: 0.5}
+  mpb_breast_scale_100: {x: 0.9, y: 0.9, z: 0.9}
+  limit_angle_0: 40
+  limit_angle_100: 40
+  collision_radius_0: 4
+  collision_radius_100: 6
+  limit_collider_radius_0: 0.135
+  limit_collider_radius_100: 0.135
+  limit_collider_position_z_0: 0.135
+  limit_collider_position_z_100: 0.135
+  breast_collider_radius_0: 0.08
+  breast_collider_radius_100: 0.08
+  path_collider:
+  - Armature/Hips/Spine/Chest/Shoulder_L/UpperArm_L
+  - Armature/Hips/Spine/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+  - Armature/Hips/Spine/Chest/Shoulder_R/UpperArm_R
+  - Armature/Hips/Spine/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  path_PB:
+  - 
+  - 

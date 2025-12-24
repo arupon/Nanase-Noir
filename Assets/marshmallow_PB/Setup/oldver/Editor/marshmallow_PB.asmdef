@@ -1,0 +1,29 @@
+{
+    "name": "marshmallow_PB",
+    "references": [
+        "GUID:5718fb738711cd34ea54e9553040911d",
+        "GUID:fc900867c0f47cd49b6e2ae4ef907300"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vrchat.avatars",
+            "expression": "3.2.0",
+            "define": "USE_SQUISH"
+        },
+        {
+            "name": "nadena.dev.modular-avatar",
+            "expression": "1.4.0",
+            "define": "USE_MA"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,216 @@
+﻿_Languages,日本語,English,한국어,中文
+_Text_SetupTitle,ましゅまろPBをセットアップします。,Set up Marshmallow PB.,마시로 PB를 셋업합니다.,设置马西马罗PB。
+_Label_Avatar,アバター,Avatar,아바타,阿凡达
+_Message_SelectPreset,プリセットを選んでください。非対応アバターの場合は説明書を参照してください。,Please select a preset. For non-supported avatars， please refer to the manual.,프리셋을 선택하세요. 비지원 아바타의 경우 설명서를 참고하세요.,选择预置。 对于不支持的头像，请参阅说明。
+_Label_Preset,プリセット,Preset,프리셋,预设
+_Label_BreastBoneLeft,胸ボーン(左),Breast_L,가슴본(왼쪽),乳房骨(左侧)
+_Label_BreastBoneRight,胸ボーン(右),Breast_R,가슴본(오른쪽),乳房骨(右侧)
+_Label_Prefab,プレハブ,Prefab,조립식,预制件
+_Label_BreastSizeBlendshape,胸の大きさ(blendshape),Breast_big(blendshape),가슴크기(blendshape),乳房大小(blendshape)
+_Label_BreastBoneScaleY,胸ボーンのYスケール値(Transform),Y scale value of the breast bone (Transform),흉골의 Y 스케일 값(Transform),乳房骨的Y刻度值(Transform)
+_Label_PhysBone,PhysBone,PhysBone,PhysBone,PhysBone
+_Label_PBPreset,PBプリセット,PB Preset,PB 프리셋,PB预设
+,,,,
+,,,,
+_Label_Pull,Pull (形状を戻す強さ),Pull,Pull (모양 되돌리기 강도),Pull (形状恢复强度)
+_Label_Momentum,Momentum (ばねの強さ),Momentum,Momentum (스프링의 힘),Momentum (弹簧强度)
+_Label_Stiffness,Stiffness (屈曲剛性/ブレやすさ),Stiffness,Stiffness (굴곡 강성 / 흔들림),Stiffness (弯曲刚度/摇晃)
+_Label_Gravity,Gravity (重力の強さ),Gravity,Gravity (중력 강도),Gravity (重力强度)
+_Label_GravityFalloff,GravityFalloff (重力に対する形状の保持),GravityFalloff,GravityFalloff (중력에 대한 형상 유지),GravityFalloff (对抗重力的形状保持)
+_Label_Immobile,Immobile (動きにくさ),Immobile,Immobile (움직이기 어려움),Immobile (对运动的抵抗)
+_Label_LimitAngle,LimitAngle (角度制限),LimitAngle,LimitAngle (각도 제한),LimitAngle (角度限制)
+_Label_CollisionRadius,CollisionRadius (コライダーの大きさ),CollisionRadius,CollisionRadius (콜리더의 크기),CollisionRadius (对撞机尺寸)
+_Label_LimitColliderPosition,LimitColliderPosition (制限コライダーの位置),LimitColliderPosition,LimitColliderPosition (제한 콜리더의 위치),LimitColliderPosition (限制碰撞器的位置)
+_Label_Collider_,Collider,Collider,Collider,Collider
+_Label_Element_,Element,Element,Element,Element
+_Label_StretchMotion,StretchMotion (伸縮のしやすさ),StretchMotion,StretchMotion (신축성),StretchMotion (伸展的便利性)
+_Label_MaxStretch,MaxStretch (最大伸び),MaxStretch,MaxStretch (최대 신장),MaxStretch (最大伸长率)
+_Label_MaxSquish,MaxSquish (最大つぶれ),MaxSquish,MaxSquish (최대 분쇄),MaxSquish (最大压碎量)
+_Label_ImmobileType,Immobile Type (動きにくさの適用先),Immobile Type,Immobile Type (움직이지 않음 적용 대상),Immobile Type (对其施加运动阻力)
+_Option_AllMotion,All motion (全動作),All motion (All motion),All motion (모든 동작),All motion (所有运动)
+_Option_World,World (スティック移動・ジャンプのみ),World (stick movement or jump only),World (스틱 이동， 점프만 적용),World (仅摇杆移动・跳跃)
+_Label_LimitColliderRadius,LimitColliderRadius (制限コライダーの大きさ),LimitColliderRadius,LimitColliderRadius (제한 콜리더의 크기),LimitColliderRadius (限制对撞机尺寸)
+,,,,
+,,,,
+_Section_GrabFunction,掴み機能,grabbing function,잡기 기능,抓取功能
+_Section_FloorCollider,床コライダー,floor collider,플로어 콜리더,地板对撞机
+_Section_SpeedRestriction,速度による動作制限,Operation limited by speed,속도에 따른 동작 제한,运行受速度限制
+_Section_BreastInterference,両胸同士の干渉,Interference between both breasts,양 가슴 사이의 간섭,两个乳房之间的干扰
+_Label_InterferenceColliderSize,干渉用コライダーの大きさ,Interference collider size,간섭용 콜리더의 크기,干涉对撞机的尺寸
+_Section_AdvancedSettings_,高度な設定,Advanced Settings,고급 설정,高级设置
+_Label_WriteDefaults,WriteDefaults,WriteDefaults,WriteDefaults,WriteDefaults
+_Label_ModularAvatar,ModularAvatar,ModularAvatar,ModularAvatar,ModularAvatar
+_Label_SquishPB,もちもちPB(SquishPB),SquishPB,SquishPB,SquishPB
+_Label_BreastRotationContribution,胸の回転の寄与度,Contribution of breast rotation,가슴 회전의 기여도,胸部旋转的作用
+_Label_SquishAnimationStrength,つぶれアニメーションの強さ,strength of crush animation,으깨짐 애니메이션의 강도,挤压动画的强度
+_Label_OtherPlayerBreastInterference,他プレイヤーとの胸干渉,breast interference with other players,다른 플레이어와의 가슴 간섭,胸部对其他球员的干扰
+_Label_OldVersion,旧バージョン(一部機能は動作しません),Old version(Some functions do not work),Old version(일부 기능은 작동하지 않음),Old version(某些功能不起作用)
+_Label_OnlySquish,つぶれ機能のみ適用(元のPBを使用),Only squish(Use original PB),Only squish(오리지널 PB 사용),Only squish(使用原始 PB)
+_Label_BreastSagging,胸の垂れ下がりやすさ,Breast drooping tendency,가슴의 처짐 정도,乳房下垂趋势
+_Label_BreastSquishEase,胸のつぶれやすさ(仰向け),Breast collapse (lying on back),가슴의 압착 용이성(등받이),乳房挤压性(仰卧)
+_Link_ManualTitle,ましゅまろPB説明書,MarshmallowPB Manual,MarshmallowPB 지침서,MarshmallowPB 说明书
+_Link_ManualURL,https://wataame89.github.io/documents-wataameya/marshmallowPB/intro/,https://wataame89.github.io/documents-wataameya/en/marshmallowPB/intro/,https://wataame89.github.io/documents-wataameya/ko/marshmallowPB/intro/,https://wataame89.github.io/documents-wataameya/zh/marshmallowPB/intro/
+_Button_GeneratePrefabOnly,プレハブのみ生成(微調整用),Generate prefab only (for fine tuning),프리팹만 생성(미세 조정용),只生成预制件(用于微调)
+_Message_PrefabGenerated,プレハブを生成しました。,Prefab generated.,프리팹을 생성했습니다.,预制件产生
+_Message_SettingsStart,設定開始,start,설정 시작,配置开始。
+_Message_SettingsComplete,設定が完了しました。,Setup is complete.,설정이 완료되었습니다.,配置完成。
+_Error_GameObjectNotSet,GameObjectが指定されていません。,GameObject is not specified.,GameObject가 지정되지 않았습니다.,没有指定GameObject。
+_Error_PrefabNotSet,prefabが指定されていません。,prefab is not specified.,prefab이 지정되지 않았습니다.,没有指定预制件。
+_Error_PrefabNotFound,prefabが取得できませんでした。,Could not get prefab.,prefab을 가져오지 못했습니다.,无法获得预制件。
+_Error_PresetNotConfigured,presetが正常に設定されていません。,preset is not set correctly.,preset이 정상적으로 설정되어 있지 않습니다.,预设没有被正确设置。
+_Error_AnimatorMissing,Animatorが取得できませんでした。,Could not get Animator.,Animator를 가져오지 못했습니다.,无法获得动画师。
+_Error_AvatarDescriptorMissing,AvatarDescriptorコンポーネントが存在しません。,AvatarDescriptor component does not exist.,AvatarDescriptor 컴포넌트가 존재하지 않습니다.,AvatarDescriptor组件不存在。
+_Error_FXLayerMissing,FXlayerが存在しません。,FXlayer does not exist.,FXlayer가존재하지않습니다.,FXlayer并不存在。
+_Error_AnimatorIsHuman,アバター設定が人間型ではありません。アバターを設定するか、「チェストボーンベースでプリセットを適用」をオフにして下さい。,The avatar is not set to Humanoid. Please set the avatar accordingly， or turn off “Apply preset using chest bone as the base.”,아바타 설정이 휴머노이드가 아닙니다. 아바타를 휴머노이드로 설정하거나 ‘체스트 본 베이스로 프리셋 적용’을 끄세요.,头像未设置为人形模式。请将头像设置为人形，或关闭“以胸部骨骼为基准应用预设”。
+_Warning_ReplaceFXLayer,marshmallow_PB_Setupで作成されたFXレイヤーが入っています。元のFXを使用してください。,It contains an FX layer created by marshmallow_PB_Setup. Use the original FX.,marshmallow_PB_Setup으로 작성된 FX레이어가 들어있습니다.원래 FX를 사용하십시오.,由marshmallow_PB_Setup创建的FXlayer被包含在内。 使用原始的FX。
+_Warning_UseSquishPBPrefab,SquishPBを使用する場合はmarshmallow_PB_squish.prefabを使用してください。,Use marshmallow_PB_squish.prefab if you use SquishPB.,SquishPB를 사용할 경우 marshmallow_PB_squish.prefab을 사용하세요.,使用SquishPB时、请使用marshmallow_PB_squish.prefab。
+_Error_BreastBoneNotSet,胸ボーンが指定されていません。,Chest bone not specified.,가슴뼈가 지정되어 있지 않습니다.,未指定胸骨。
+_Error_NotInitialized,パラメータがver2.0.0用に初期化されていません。marshmallow_PB_Setupを開き、初期化して下さい。,Parameters have not been initialized for version 2.0.0. Please open marshmallow_PB_Setup and initialize them.,파라미터가 v2.0.0용으로 초기화되지 않았습니다. marshmallow_PB_Setup을 열고 초기화해 주세요.,参数尚未为 v2.0.0 初始化。请打开 marshmallow_PB_Setup 并进行初始化。
+_Warning_AdjustColliderPosition,非対応アバター(プリセット無し)の場合は、コライダー位置を調整してください。,For non-supported avatars (no preset)， adjust the collider position.,비지원 아바타(프리셋 없음)의 경우， 콜리더 위치를 조정해 주세요.,对于不支持的头像(无预设)，请调整碰撞器位置。
+_Warning_RemoveOldPB,https://wataame89.github.io/documents-wataameya/marshmallowPB/intro/,Marshmallow PB (old method) is set on your avatar. Please remove Marshmallow PB according to the instructions.,아바타에 마쥬마로 PB(구 방식)가 설정되어 있습니다. 설명서에 따라 마쥬마로 PB를 제거해 주세요.,头像中设置了 Marshmallow PB(旧方法)。 请根据说明删除 Marshmallow PB。
+_Warning_NonUniformScale,非対応アバターの位置合わせ用コライダー(marshmallow_PB_L)のXYZスケールは同じ値にして下さい。,For unsupported avatars， set the XYZ scale of the alignment collider (marshmallow_PB_L) to the same value.,미지원 아바타의 정렬용 콜라이더(marshmallow_PB_L)의 XYZ 스케일을 동일한 값으로 설정해 주세요.,对于不受支持的头像，请将对齐用碰撞体（marshmallow_PB_L）的 XYZ 缩放设置为相同的数值。
+,,,,
+_Warning_UpdatingToVer2.0.0,※ver2.0.0以前からアップデートした場合は、パラメータの初期化が必要です。(注意：PhysBoneのパラメータも初期化されます),If you updated from version 2.0.0 or earlier， you need to initialize the parameters. (Note: PhysBone parameters will also be reset.),※ver2.0.0 이전 버전에서 업데이트한 경우 파라미터 초기화가 필요합니다. (주의: PhysBone 파라미터도 초기화됩니다),※若从 2.0.0 及以前版本升级，需要初始化参数。（注意：PhysBone 的参数也会被初始化）
+_Label_ReInitializing,パラメータ初期化,Parameter Initialization,파라미터 초기화,参数初始化
+_Warning_Invalid_Index,※DLCにて対応しているアバターです。ましゅまろPBのboothから対応するアバターのDLCをお買い求めください。,This avatar is supported via DLC. Please purchase the corresponding avatar DLC from the Marshmallow PB Booth page.,※이 아바타는 DLC로 지원됩니다. 마시멜로 PB의 Booth 페이지에서 해당 아바타 DLC를 구매해 주세요.,※此头像通过 DLC 支持。请在 Marshmallow PB 的 Booth 页面购买相应头像的 DLC。
+_Message_Exit_Playmode,Playモードを終了し、設定し直して下さい。,Exit Play Mode and reconfigure the settings.,플레이 모드를 종료하고 다시 설정해 주세요.,请退出播放模式并重新进行设置。
+_Message_Make_Backup,アバターのバックアップを作成してからご利用下さい。,Please create a backup of your avatar before use.,아바타의 백업을 생성한 후 사용해 주세요.,请在使用前创建头像的备份。
+,,,,
+,,,,
+_Error_PackageNotImported,必要なパッケージがインポートされていません。説明書に従ってインポートしてください。,The required package has not been imported. Please import them according to the manual.,필요한 패키지를 가져오지 못했습니다. 매뉴얼에 따라 가져 오십시오.,所需软件包尚未导入。 请根据手册导入。
+_Warning_OldWindowSettings,ウィンドウからの設定は非推奨です。 新しい設定方法はマニュアルを参照してください。,Setting from a window is deprecated. Please refer to the manual for the new configuration method.,창을 통한 설정은 권장하지 않습니다. 새로운 설정 방법은 설명서를 참고하시기 바랍니다.,从窗口配置已过时。有关新的配置方法，请参阅手册。
+_Warning_InsertIntoAvatar,VRCAvatarDescriptorコンポーネントが設定されたアバターに入れてください。,Put in the avatar with the VRCAvatarDescriptor component set.,VRCAvatarDescriptor 컴포넌트가 설정된 아바타에 넣어주세요.,放入设置了 VRCAvatarDescriptor 组件的头像。
+_Warning_ImmobileApplyNote,※注意:Immobileを通常の揺れに適用する場合は、必ずAllmotionに変更して下さい(Worldでは強制的に0に固定されます),Note: If you want to apply Immobile to normal shaking， be sure to change to Allmotion (in World， it is forced to be fixed to 0).,주의: Immobile을 일반 흔들림에 적용할 경우 반드시 Allmotion으로 변경해 주세요(World에서는 강제로 0으로 고정됩니다).,"注意：如果要将 ""Immobile ""应用于正常晃动，请务必将其更改为 ""Allmotion""(在 ""World ""中，它被强制固定为 0)"
+,,,,
+,,,,
+_Toggle_DisableSquish,つぶれ機能オフ(貫通対策) ,Crush function off(Measures against penetration) ,찌그러짐 기능 끄기(관통 대책),关闭挤压功能(反渗透措施)
+_Toggle_DisableGravity,重力機能オフ,Gravity function off,중력 기능 끄기,关闭重力功能
+_Button_DeleteAllChildPB,配下のPBを全削除,Delete all subordinate PBs,하부 PB를 모두 삭제,删除所有下级 PB
+_Toggle_UseThisTransformOffset,オフセットにこのオブジェクトのTransformを使用,Use this object's Transform for offset,이 오브젝트의 Transform을 오프셋에 사용합니다.,使用此对象的变换进行偏移
+_Label_BreastRotation,胸揺れの回転,Breast Swing Rotation,가슴 흔들기 회전,乳房摆动旋转
+,,,,
+,,,,
+_Preset_SmoothSoft,なめらか(やわらかめ),Smooth(Soft),부드러움(소프트),平滑(软)
+_Preset_SmoothNormal,なめらか(ふつう),Smooth(Normal),부드러움(보통),平滑(正常)
+_Preset_SmoothHard,なめらか(かため),Smooth(Hard),부드러운(하드),平滑(硬)
+_Preset_PuruSoft,ぷるぷる(やわらかめ),Jiggly(Soft),흔들림(소프트),抖动(软)
+_Preset_PuruNormal,ぷるぷる(ふつう),Jiggly(Normal),흔들림(보통),抖动(正常)
+_Preset_PuruHard,ぷるぷる(かため),Jiggly(Hard),흔들림(하드),抖动(硬)
+_Preset_TayunSoft,たゆんたゆん(やわらかめ),Bouncy(Soft),바운시(소프트),弹跳(软)
+_Preset_TayunNormal,たゆんたゆん(ふつう),Bouncy(Normal),바운시(보통),弹跳(正常)
+_Preset_TayunHard,たゆんたゆん(かため),Bouncy(Hard),바운시(하드),弹跳(硬)
+,,,,
+,,,,
+_Menu_Title,ましゅまろPB,Marshmallow PB,마시멜로 PB,Marshmallow PB
+_Menu_PB_OFF,PB無効化,Disable PB,PB 비활성화,禁用 PB
+_Menu_PB_Normal_ON,通常PBに変更,Switch to Normal PB,일반 PB로 변경,切换为普通 PB
+_Menu_Squish_OFF,つぶれ機能無効化,Disable Compression Function,압축 기능 비활성화,禁用压缩功能
+_Menu_Limit_Clipping_ON,貫通防止システム,Penetration Prevention System,관통 방지 시스템,穿透防止系统
+_Menu_Interaction_ON,他プレイヤーとの胸干渉,Breast Interaction with Other Players,다른 플레이어와의 가슴 간섭,与其他玩家的胸部交互
+,,,,
+,,,,
+_Section_BasicSettings,=== Basic Settings (基本設定) ===,=== Basic Settings ===,=== Basic Settings ===,=== Basic Settings ===
+,,,,
+,,,,
+_Section_PhysBoneSettings,=== PhysBone Settings (PB設定) ===,=== PhysBone Settings ===,=== PhysBone Settings ===,=== PhysBone Settings ===
+_PhysBone_Pull,Pull (形状を戻す強さ),Pull (Shape Restoring Strength),Pull (형상 복원 강도),Pull (形状恢复强度)
+_PhysBone_Momentum,Momentum (ばねの強さ),Momentum (Spring Strength),Momentum (스프링 강도),Momentum (弹簧强度)
+_PhysBone_Stiffness,Stiffness (屈曲剛性/ブレやすさ),Stiffness (Bending Stiffness / Wobbliness),Stiffness (굴곡 강성 / 흔들림),Stiffness (弯曲刚度/晃动)
+_PhysBone_Gravity,Gravity (重力の強さ),Gravity (Gravity Strength),Gravity (중력 강도),Gravity (重力强度)
+_PhysBone_GravityFalloff,GravityFalloff (重力に対する形状の保持),GravityFalloff (Shape Retention Against Gravity),GravityFalloff (중력에 대한 형태 유지),GravityFalloff (抗重力的形状保持)
+_PhysBone_Immobile,Immobile (動きにくさ),Immobile (Immobility),Immobile (움직임 저항도),Immobile (不易移动性)
+_PhysBone_Immobile_type,ImmobileType (動きにくさの種類),ImmobileType (Immobility Type),ImmobileType (움직임 저항 유형),ImmobileType (不易移动类型)
+_PhysBone_Limit_Angle,LimitAngle (角度制限),LimitAngle,LimitAngle (각도 제한),LimitAngle (角度限制)
+_PhysBone_Limit_Rotation,LImitRotation (角度オフセット),LImitRotation (Angle Offset),LImitRotation (각도 오프셋),LImitRotation (角度偏移)
+_PhysBone_Collision_Radius,CollisionRadius (コライダーの大きさ),CollisionRadius (Collider Size),CollisionRadius (콜라이더 크기),CollisionRadius (碰撞体大小)
+_PhysBone_AllowCollision,AllowCollision (触り許可),AllowCollision (Allow Touching),AllowCollision (터치 허용),AllowCollision (允许触摸)
+_PhysBone_Stretch_Motion,StretchMotion (伸縮のしやすさ),StretchMotion (Stretch Ease),StretchMotion (신축 용이도),StretchMotion (伸缩容易度)
+_PhysBone_Max_Stretch,MaxStretch (最大伸び),MaxStretch (Maximum Stretch),MaxStretch (최대 신장),MaxStretch (最大伸展)
+_PhysBone_Max_Squish,MaxSquish (最大つぶれ),MaxSquish (Maximum Squish),MaxSquish (최대 압착),MaxSquish (最大压扁)
+_PhysBone_AllowGrabbing,AllowGrabbing (掴み許可),AllowGrabbing (Allow Grabbing),AllowGrabbing (잡기 허용),AllowGrabbing (允许抓取)
+_PhysBone_AllowPosing,AllowPosing (固定許可),AllowPosing (Allow Posing),AllowPosing (고정 허용),AllowPosing (允许固定)
+_PhysBone_Grab_Movement,GrabMovement (掴み挙動),GrabMovement (Grab Behaviour),GrabMovement (잡기 동작),GrabMovement (抓取行为)
+_PhysBone_SnapToHand,SnapToHand (掴み時のスナップ),SnapToHand (Snap While Grabbing),SnapToHand (잡기 시 스냅),SnapToHand (抓取时吸附)
+,,,,
+,,,,
+_Immobile_type_AllMotion,All motion (全動作),All motion (All motion),All motion (모든 동작),All motion (所有运动)
+_Immobile_type_World,World (スティック移動・ジャンプのみ),World (stick movement or jump only),World (스틱 이동， 점프만 적용),World (仅摇杆移动・跳跃)
+,,,,
+_Allow_None,FALSE,FALSE,FALSE,FALSE
+_Allow_Self_Others,True (Both Self and Others),True (Both Self and Others),True (Both Self and Others),True (Both Self and Others)
+_Allow_Self,Self Only,Self Only,Self Only,Self Only
+_Allow_Others,Others Only,Others Only,Others Only,Others Only
+,,,,
+,,,,
+_Label_Collider,Collider,Collider,Collider,Collider
+_Label_Element,Element,Element,Element,Element
+,,,,
+,,,,
+_Section_InertiaSettings,=== Inertia Settings (慣性/疑似多重ボーン設定) ===,=== Inertia Settings ===,=== Inertia Settings ===,=== Inertia Settings ===
+_inertia_enabled,Inertia(慣性/疑似多重ボーン) 有効化,Enable Inertia (Inertia / Pseudo Multi-Bone),Inertia(관성/의사 다중 본) 활성화,启用 Inertia（惯性／伪多骨骼）
+_inertia_Pull,Pull (形状を戻す強さ),Pull (Shape Restoring Strength),Pull (형상 복원 강도),Pull (形状恢复强度)
+_inertia_Momentum,Momentum (ばねの強さ),Momentum (Spring Strength),Momentum (스프링 강도),Momentum (弹簧强度)
+_inertia_Stiffness,Stiffness (屈曲剛性/ブレやすさ),Stiffness (Bending Stiffness / Wobbliness),Stiffness (굴곡 강성 / 흔들림),Stiffness (弯曲刚度/晃动)
+_inertia_Gravity,Gravity (重力の強さ),Gravity (Gravity Strength),Gravity (중력 강도),Gravity (重力强度)
+_inertia_GravityFalloff,GravityFalloff (重力に対する形状の保持),GravityFalloff (Shape Retention Against Gravity),GravityFalloff (중력에 대한 형태 유지),GravityFalloff (抗重力的形状保持)
+_inertia_Immobile,Immobile (動きにくさ),Immobile (Immobility),Immobile (움직임 저항도),Immobile (不易移动性)
+_inertia_Immobile_type,ImmobileType (動きにくさの種類),ImmobileType (Immobility Type),ImmobileType (움직임 저항 유형),ImmobileType (不易移动类型)
+_inertia_Immobile_type_AllMotion,All motion (全動作),All motion (All motion),All motion (모든 동작),All motion (所有运动)
+_inertia_Immobile_type_World,World (スティック移動・ジャンプのみ),World (stick movement or jump only),World (스틱 이동， 점프만 적용),World (仅摇杆移动・跳跃)
+_inertia_LimitAngle,LimitAngle (角度制限),LimitAngle,LimitAngle (각도 제한),LimitAngle (角度限制)
+_inertia_LimitRotation,LImitRotation (角度オフセット),LImitRotation (Angle Offset),LImitRotation (각도 오프셋),LImitRotation (角度偏移)
+_inertia_StretchMotion,StretchMotion (伸縮のしやすさ),StretchMotion (Stretch Ease),StretchMotion (신축 용이도),StretchMotion (伸缩容易度)
+_inertia_MaxStretch,MaxStretch (最大伸び),MaxStretch (Maximum Stretch),MaxStretch (최대 신장),MaxStretch (最大伸展)
+_inertia_MaxSquish,MaxSquish (最大つぶれ),MaxSquish (Maximum Squish),MaxSquish (최대 압착),MaxSquish (最大压扁)
+,,,,
+,,,,
+_Section_ParallelBoneFunction,=== Parallel Bone Settings (平行ボーン設定) ===,=== Parallel Bone Settings ===,=== Parallel Bone Settings ===,=== Parallel Bone Settings ===
+_parallelBone_enabled,平行ボーン機能 有効化,Enable Parallel Bone Function,병렬 본 기능 활성화,启用平行骨骼功能
+_parallelBone_strengthX,平行度(縦方向),Vertical Parallelism,수직 평행도,纵向平行度
+_parallelBone_strengthY,平行度(横方向),Horizontal Parallelism,수평 평행도,横向平行度
+_parallelBone_squishStrengthX,つぶれ時の平行度強化(縦方向),Parallelism Reinforcement During Squish (Vertical),눌렸을 때 평행도 강화(세로 방향),压缩时平行度强化（纵向）
+_parallelBone_squishStrengthY,つぶれ時の平行度強化(横方向),Parallelism Reinforcement During Squish (Horizontal),눌렸을 때 평행도 강화(가로 방향),压缩时平行度强化（横向）
+,,,,
+,,,,
+_Section_GravityFunction,=== Gravity Setting (重力設定) ===,=== Gravity Setting ===,=== Gravity Setting ===,=== Gravity Setting ===
+_gravity_enabled,重力機能 有効化,Enable Gravity Function,중력 기능 활성化,启用重力功能
+_gravity_squish,つぶれやすさ,Squishability,압착 용이도,易压扁度
+_gravity_sag,垂れ下がりやすさ,Sagging Tendency,처짐 경향,易下垂度
+_gravity_squishAngle,乳流れ角度 (つぶれ時),Flow Angle (Squish),흐름 각도(압착 시),乳流角度（压扁时）
+_gravity_sagAngle,乳流れ角度 (垂れ下がり時),Flow Angle (Sag),흐름 각도(처짐 시),乳流角度（下垂时）
+,,,,
+,,,,
+_Section_InterferenceGrabSquish,=== Interference / Squish Setting (干渉/つぶれ設定) ===,=== Interference / Squish Setting ===,=== Interference / Squish Setting ===,=== Interference / Squish Setting ===
+_squishAnimationStrength,つぶれアニメーションの強さ,Squish Animation Strength,압착 애니메이션 강도,压扁动画强度
+_floor,床コライダー,Floor Collider,바닥 콜라이더,地面碰撞体
+_interference,両胸同士の干渉,Breast Interference,양쪽 가슴 간 간섭,双胸之间的干涉
+_breast_collider_radius,干渉コライダーの大きさ,Interference Collider Size,간섭 콜라이더 크기,干涉碰撞体大小
+_breastInterference_AnimationStrength,横つぶれアニメーションの強さ(両胸干渉時),Side Compression Animation Strength (When Both Breasts Interact),양쪽 가슴 간섭 시 옆쪽 압축 애니메이션 강도,双胸相互干涉时侧向压缩动画强度
+_playerInteractions,他プレイヤーとの胸干渉,Breast Interference with Other Players,다른 플레이어와의 가슴 간섭,与其他玩家的胸部干涉
+,,,,
+,,,,
+_Section_AntiPenetrationFunction,=== Anti-Penetration Setting (貫通防止設定) ===,=== Anti-Penetration Setting ===,=== Anti-Penetration Setting ===,=== Anti-Penetration Setting ===
+_breastInterference_BreakPreventionRotation,両胸干渉時の回転機能,Rotation Function (When Both Breasts Interact),양쪽 가슴 간섭 시 회전 기능,双胸相互干涉时的旋转功能
+_breastInterference_BreakPreventionAnimation,横つぶれアニメーションの無効化(両胸干渉時),Disable Side Compression Animation (When Both Breasts Interact),양쪽 가슴 간섭 시 옆쪽 압축 애니메이션 비활성화,禁用侧向压缩动画（双胸相互干涉时）
+_breastInterference_BreakPreventionCollider,貫通防止用システム,Anti-Penetration System,관통 방지 시스템,穿透防止系统
+_runBreakPreventionEnabled,移動時の破綻防止,Break Prevention While Moving,이동 시 파탄 방지,移动时破绽防止
+_buffer_limit_colider_position,つぶれ制限コライダーの位置,Position of the Compression Limit Collider,압축 제한 콜라이더 위치,压缩限制碰撞体的位置
+_nosquish,つぶれ機能無効化,Disable Squish Function,압착 기능 비활성화,禁用压扁功能
+,,,,
+,,,,
+_Section_MenuSetting,=== Menu Setting (メニュー設定) ===,=== Menu Setting ===,=== Menu Setting ===,=== Menu Setting ===
+_marshmallowPBEnabled,ましゅまろPB用メニュー生成,Generate Menu for MarshmallowPB,MarshmallowPB 메뉴 생성,生成MarshmallowPB菜单
+_installTargetMenu,メニューインストール先(変更する場合),Menu Install Destination (if changing),메뉴 설치 위치(변경하는 경우),菜单安装位置（如需更改）
+,,,,
+,,,,
+_Section_AdvancedSettings,=== Advanced Settings (高度な設定) ===,=== Advanced Settings ===,=== Advanced Settings ===,=== Advanced Settings ===
+_delete_all_PB,配下のPBを全削除,Delete All Child PBs,하위 PB 모두 삭제,删除所有子 PB
+_use_transfrom_offset,オフセットにこのオブジェクトのTransformを使用,Use This Object's Transform as Offset,이 오브젝트의 Transform을 오프셋으로 사용,使用此对象的 Transform 作为偏移
+_onlysquish,つぶれ機能のみ適用(元のPBを使用),Apply Squish Function Only (Use Original PB),압착 기능만 적용(원본 PB 사용),仅应用压扁功能（使用原始 PB）
+_is_chestbase,チェストボーンベースでプリセットを適用,Apply preset using chest bone as the base,체스트 본 베이스로 프리셋 적용,以胸部骨骼为基准应用预设
+,,,,
+_Section_PBPreset,=== PB Preset Setting (PBプリセット設定) ===,=== PB Preset Setting ===,=== PB Preset Setting ===,=== PB Preset Setting ===
+_pb_preset_explanation,PBプリセット : ましゅまろPBの揺れ方に関与する一部のパラメータを保持します。,PB Preset: Stores some parameters that affect the movement behavior of Marshmallow PB.,PB 프리셋: 마시멜로 PB의 흔들림에 관련된 일부 파라미터를 저장합니다.,PB 预设：保存与 Marshmallow PB 晃动方式相关的部分参数。
+_pb_preset_import,Import : 入力されたコードからPBプリセットを読み込みます。,Import: Load the PB preset from the entered code.,Import: 입력된 코드에서 PB 프리셋을 불러옵니다.,Import：从输入的代码加载 PB 预设。
+_pb_preset_expoort,Export : 現在のPBプリセットをコードに出力します。,Export: Output the current PB preset as a code.,Export: 현재 PB 프리셋을 코드로 출력합니다.,Export：将当前 PB 预设导出为代码。
+_pb_preset_save,Save : 現在のPBプリセットを保存します。,Save: Save the current PB preset.,Save: 현재 PB 프리셋을 저장합니다.,Save：保存当前 PB 预设。
