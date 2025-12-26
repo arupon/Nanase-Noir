@@ -12,14 +12,8 @@
     "jp.lilxyzw.avatar-utils": {
       "version": "2.1.2"
     },
-    "jp.lilxyzw.liltoon": {
-      "version": "2.2.1"
-    },
     "jp.whiteflare.unlitwf": {
       "version": "2.11.1"
-    },
-    "nadena.dev.modular-avatar": {
-      "version": "1.14.3"
     },
     "com.anatawa12.gists": {
       "version": "0.19.0"
@@ -41,6 +35,12 @@
     },
     "nadena.dev.ndmf": {
       "version": "1.10.1"
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "2.3.2"
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.15.1"
     }
   },
   "locked": {
@@ -75,21 +75,10 @@
       "version": "2.1.2",
       "dependencies": {}
     },
-    "jp.lilxyzw.liltoon": {
-      "version": "2.2.1",
-      "dependencies": {}
-    },
     "jp.whiteflare.unlitwf": {
       "version": "2.11.1",
       "dependencies": {
         "jp.whiteflare.unlitwf.texpack": "^1.1.0"
-      }
-    },
-    "nadena.dev.modular-avatar": {
-      "version": "1.14.3",
-      "dependencies": {
-        "com.vrchat.avatars": ">=3.7.4",
-        "nadena.dev.ndmf": ">=1.9.2 <2.0.0-a"
       }
     },
     "com.anatawa12.gists": {
@@ -126,6 +115,16 @@
     "nadena.dev.ndmf": {
       "version": "1.10.1",
       "dependencies": {}
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "2.3.2",
+      "dependencies": {}
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.15.1",
+      "dependencies": {
+        "nadena.dev.ndmf": ">=1.10.0 <2.0.0-a"
+      }
     }
   }
 }
