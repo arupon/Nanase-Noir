@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1001 &247622800024526970
 PrefabInstance:
@@ -136,7 +136,7 @@ PrefabInstance:
     - target: {fileID: 7152874484476355582, guid: 2325d8e3850d2f741ba7c35704ce1abe,
         type: 3}
       propertyPath: m_Name
-      value: ch05_NanaseNoir_gen2.01_2p
+      value: ch05_NanaseNoir_gen2.02_2p
       objectReference: {fileID: 0}
     - target: {fileID: 7371276637237894584, guid: 2325d8e3850d2f741ba7c35704ce1abe,
         type: 3}

@@ -55,11 +55,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: e740ec9467958644abbe261ae22c6d42, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3efd2f3a628ae448936ca53a03787c9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: e740ec9467958644abbe261ae22c6d42, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3efd2f3a628ae448936ca53a03787c9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Bump2ndMap:
@@ -131,7 +131,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main2ndBlendMask:
-        m_Texture: {fileID: 2800000, guid: 2a6df4a6c5748fc4c9595a8f9335e392, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main2ndDissolveMask:
@@ -143,7 +143,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main2ndTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 697318aec4d715c49bc4cae1356c5067, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main3rdBlendMask:
@@ -163,7 +163,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainColorAdjustMask:
-        m_Texture: {fileID: 2800000, guid: 2a6df4a6c5748fc4c9595a8f9335e392, type: 3}
+        m_Texture: {fileID: 2800000, guid: 697318aec4d715c49bc4cae1356c5067, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainGradationTex:
@@ -171,7 +171,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e740ec9467958644abbe261ae22c6d42, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3efd2f3a628ae448936ca53a03787c9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCap2ndBlendMask:
@@ -281,7 +281,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Blocker_GradientBias: 0.0002
-    - Blocker_Samples: 12
+    - Blocker_Samples: 8
     - MaxDistance: 0.2
     - PCF_GradientBias: 0.0002
     - PCF_Samples: 24
@@ -754,7 +754,7 @@ Material:
     - _Main3rdTexDecalAnimation: {r: 1, g: 1, b: 1, a: 30}
     - _Main3rdTexDecalSubParam: {r: 1, g: 1, b: 0, a: 1}
     - _Main3rdTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
-    - _MainTexHSVG: {r: 0, g: 1, b: 2, a: 1}
+    - _MainTexHSVG: {r: -0.5, g: 1, b: 2, a: 2}
     - _MainTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndColor: {r: 1, g: 1, b: 1, a: 0.05}

@@ -230,7 +230,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "jp.unisakistudio.posingsystem": "2.2.5"
+        "jp.unisakistudio.posingsystem": "3.0.0"
       }
     },
     "jp.unisakistudio.posingsystem": {
@@ -238,8 +238,8 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "nadena.dev.modular-avatar": "1.12.0",
-        "nadena.dev.ndmf": "1.7.2"
+        "nadena.dev.modular-avatar": "1.15.1",
+        "nadena.dev.ndmf": "1.10.1"
       }
     },
     "jp.whiteflare.unlitwf": {
@@ -269,6 +269,12 @@
       "dependencies": {
         "com.unity.modules.animation": "1.0.0"
       }
+    },
+    "net.narazaka.vrchat.floor-adjuster": {
+      "version": "file:net.narazaka.vrchat.floor-adjuster",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "vrchat.blackstartx.gesture-manager": {
       "version": "file:vrchat.blackstartx.gesture-manager",

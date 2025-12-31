@@ -3,9 +3,6 @@
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
     },
-    "jp.unisakistudio.kawaiiposing": {
-      "version": "2.2.5"
-    },
     "com.github.kurotu.vrc-quest-tools": {
       "version": "2.11.3"
     },
@@ -14,9 +11,6 @@
     },
     "jp.whiteflare.unlitwf": {
       "version": "2.11.1"
-    },
-    "com.anatawa12.gists": {
-      "version": "0.19.0"
     },
     "jp.suzuryg.face-emo": {
       "version": "1.6.3"
@@ -41,6 +35,15 @@
     },
     "nadena.dev.modular-avatar": {
       "version": "1.15.1"
+    },
+    "com.anatawa12.gists": {
+      "version": "0.19.1"
+    },
+    "jp.unisakistudio.kawaiiposing": {
+      "version": "3.0.1"
+    },
+    "net.narazaka.vrchat.floor-adjuster": {
+      "version": "1.1.2"
     }
   },
   "locked": {
@@ -51,19 +54,6 @@
     "jp.whiteflare.unlitwf.texpack": {
       "version": "1.3.0",
       "dependencies": {}
-    },
-    "jp.unisakistudio.kawaiiposing": {
-      "version": "2.2.5",
-      "dependencies": {
-        "jp.unisakistudio.posingsystem": "^2.2.5"
-      }
-    },
-    "jp.unisakistudio.posingsystem": {
-      "version": "2.2.5",
-      "dependencies": {
-        "nadena.dev.modular-avatar": "^1.12.0",
-        "nadena.dev.ndmf": "^1.7.2"
-      }
     },
     "com.github.kurotu.vrc-quest-tools": {
       "version": "2.11.3",
@@ -80,10 +70,6 @@
       "dependencies": {
         "jp.whiteflare.unlitwf.texpack": "^1.1.0"
       }
-    },
-    "com.anatawa12.gists": {
-      "version": "0.19.0",
-      "dependencies": {}
     },
     "jp.suzuryg.face-emo": {
       "version": "1.6.3",
@@ -124,6 +110,29 @@
       "version": "1.15.1",
       "dependencies": {
         "nadena.dev.ndmf": ">=1.10.0 <2.0.0-a"
+      }
+    },
+    "com.anatawa12.gists": {
+      "version": "0.19.1",
+      "dependencies": {}
+    },
+    "jp.unisakistudio.kawaiiposing": {
+      "version": "3.0.1",
+      "dependencies": {
+        "jp.unisakistudio.posingsystem": "^3.0.0"
+      }
+    },
+    "jp.unisakistudio.posingsystem": {
+      "version": "3.0.1",
+      "dependencies": {
+        "nadena.dev.modular-avatar": "^1.15.1",
+        "nadena.dev.ndmf": "^1.10.1"
+      }
+    },
+    "net.narazaka.vrchat.floor-adjuster": {
+      "version": "1.1.2",
+      "dependencies": {
+        "nadena.dev.ndmf": ">=1.1.1 <2.0.0-a"
       }
     }
   }

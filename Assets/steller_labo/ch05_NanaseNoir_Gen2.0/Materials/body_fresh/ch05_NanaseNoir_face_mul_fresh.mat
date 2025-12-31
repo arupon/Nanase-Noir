@@ -21,8 +21,7 @@ Material:
   stringTagMap:
     RenderType: Transparent
     VRCFallback: Unlit
-  disabledShaderPasses:
-  - GRABPASS
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
