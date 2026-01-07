@@ -53,11 +53,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: d0beb433fd416d84cad2bfd62a5643cb, type: 3}
+        m_Texture: {fileID: 2800000, guid: f5dcad13e9ebe424fa083261d6669826, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: d0beb433fd416d84cad2bfd62a5643cb, type: 3}
+        m_Texture: {fileID: 2800000, guid: f5dcad13e9ebe424fa083261d6669826, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Bump2ndMap:
@@ -129,7 +129,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main2ndTex:
-        m_Texture: {fileID: 2800000, guid: 8922b7f0365947248b8ed1438df8f45a, type: 3}
+        m_Texture: {fileID: 2800000, guid: b43dd7b70107acc489ff27843de3e3c0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main3rdBlendMask:
@@ -157,7 +157,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d0beb433fd416d84cad2bfd62a5643cb, type: 3}
+        m_Texture: {fileID: 2800000, guid: f5dcad13e9ebe424fa083261d6669826, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCap2ndBlendMask:

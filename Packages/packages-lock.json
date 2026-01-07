@@ -230,7 +230,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "jp.unisakistudio.posingsystem": "3.0.0"
+        "jp.unisakistudio.posingsystem": "3.0.3"
       }
     },
     "jp.unisakistudio.posingsystem": {
