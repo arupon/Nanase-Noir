@@ -103,6 +103,36 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
+    path: cos_inner
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 10
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._IsOn
     path: hair_FT
     classID: 137
     script: {fileID: 0}
@@ -163,7 +193,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_Eri
+    path: NanaseNoir_Club_Ver,1.0.0/ACC
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -193,7 +223,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_SenakaOkumi
+    path: NanaseNoir_Club_Ver,1.0.0/Jacket
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -223,7 +253,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_SenakaRibbon
+    path: NanaseNoir_Club_Ver,1.0.0/Necklace
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -253,7 +283,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_Shose
+    path: NanaseNoir_Club_Ver,1.0.0/Shose
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -283,7 +313,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_Tabi
+    path: NanaseNoir_Club_Ver,1.0.0/Sweater
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -313,7 +343,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1M2_Kimono
+    path: Nanase_OutfitA/OutfitB_Pants
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -343,8 +373,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M3_FlowerCrown
-    classID: 137
+    path: AudioHairClip/HairClip1
+    classID: 23
     script: {fileID: 0}
     flags: 0
   - serializedVersion: 2
@@ -373,8 +403,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: nanase_ponytail/Chignon
-    classID: 137
+    path: AudioHairClip/HairClip2
+    classID: 23
     script: {fileID: 0}
     flags: 0
   - serializedVersion: 2
@@ -403,38 +433,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: nanase_ponytail/Hair_Base
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 10
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._IsOn
-    path: nanase_ponytail/pony_tail
-    classID: 137
+    path: Ring_prefab
+    classID: 23
     script: {fileID: 0}
     flags: 0
   m_PPtrCurves: []
@@ -464,6 +464,15 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
+      path: 23566232
+      attribute: 2166452524
+      script: {fileID: 0}
+      typeID: 137
+      customType: 22
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
       path: 508324043
       attribute: 2166452524
       script: {fileID: 0}
@@ -482,7 +491,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1402111531
+      path: 198263129
       attribute: 2166452524
       script: {fileID: 0}
       typeID: 137
@@ -491,7 +500,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 879638736
+      path: 4262362559
       attribute: 2166452524
       script: {fileID: 0}
       typeID: 137
@@ -500,7 +509,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2880426630
+      path: 1759050316
       attribute: 2166452524
       script: {fileID: 0}
       typeID: 137
@@ -509,7 +518,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3727789208
+      path: 1324704398
       attribute: 2166452524
       script: {fileID: 0}
       typeID: 137
@@ -518,7 +527,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1605544367
+      path: 3189807349
       attribute: 2166452524
       script: {fileID: 0}
       typeID: 137
@@ -527,7 +536,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 792453350
+      path: 716229265
       attribute: 2166452524
       script: {fileID: 0}
       typeID: 137
@@ -536,37 +545,28 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3628946837
+      path: 4213679830
       attribute: 2166452524
       script: {fileID: 0}
-      typeID: 137
+      typeID: 23
       customType: 22
       isPPtrCurve: 0
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2015336875
+      path: 1647245164
       attribute: 2166452524
       script: {fileID: 0}
-      typeID: 137
+      typeID: 23
       customType: 22
       isPPtrCurve: 0
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3078040822
+      path: 3934110758
       attribute: 2166452524
       script: {fileID: 0}
-      typeID: 137
-      customType: 22
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
-    - serializedVersion: 2
-      path: 2227533633
-      attribute: 2166452524
-      script: {fileID: 0}
-      typeID: 137
+      typeID: 23
       customType: 22
       isPPtrCurve: 0
       isIntCurve: 0
@@ -679,6 +679,36 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
+    path: cos_inner
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 10
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._IsOn
     path: hair_FT
     classID: 137
     script: {fileID: 0}
@@ -739,7 +769,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_Eri
+    path: NanaseNoir_Club_Ver,1.0.0/ACC
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -769,7 +799,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_SenakaOkumi
+    path: NanaseNoir_Club_Ver,1.0.0/Jacket
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -799,7 +829,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_SenakaRibbon
+    path: NanaseNoir_Club_Ver,1.0.0/Necklace
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -829,7 +859,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_Shose
+    path: NanaseNoir_Club_Ver,1.0.0/Shose
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -859,7 +889,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1_Tabi
+    path: NanaseNoir_Club_Ver,1.0.0/Sweater
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -889,7 +919,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M1M2_Kimono
+    path: Nanase_OutfitA/OutfitB_Pants
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -919,8 +949,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: Springsteed Lace_NanaseNoir_Color3 Variant/M3_FlowerCrown
-    classID: 137
+    path: AudioHairClip/HairClip1
+    classID: 23
     script: {fileID: 0}
     flags: 0
   - serializedVersion: 2
@@ -949,8 +979,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: nanase_ponytail/Chignon
-    classID: 137
+    path: AudioHairClip/HairClip2
+    classID: 23
     script: {fileID: 0}
     flags: 0
   - serializedVersion: 2
@@ -979,38 +1009,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._IsOn
-    path: nanase_ponytail/Hair_Base
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 10
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._IsOn
-    path: nanase_ponytail/pony_tail
-    classID: 137
+    path: Ring_prefab
+    classID: 23
     script: {fileID: 0}
     flags: 0
   m_EulerEditorCurves: []
