@@ -792,6 +792,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NanaseNoir_Club_Ver,1.0.0
       objectReference: {fileID: 0}
+    - target: {fileID: 8012735844701329487, guid: c57cd49303e818a41856e35cf133ced7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8289531018194903028, guid: c57cd49303e818a41856e35cf133ced7,
         type: 3}
       propertyPath: m_Name
