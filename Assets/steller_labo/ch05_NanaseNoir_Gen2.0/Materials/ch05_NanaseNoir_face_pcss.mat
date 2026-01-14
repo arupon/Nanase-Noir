@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ch05_NanaseNoir_face_pcss
-  m_Shader: {fileID: -7482078289662181024, guid: cf39d66ef216e2c47b704b39fcfcbe80,
+  m_Shader: {fileID: -7482078289662181024, guid: c756d41e33a20024c987b12aba93ecc1,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -55,11 +55,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: a3efd2f3a628ae448936ca53a03787c9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a0addc0fea9eb3459a4e7a4b464c47e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: a3efd2f3a628ae448936ca53a03787c9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a0addc0fea9eb3459a4e7a4b464c47e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Bump2ndMap:
@@ -163,7 +163,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainColorAdjustMask:
-        m_Texture: {fileID: 2800000, guid: 697318aec4d715c49bc4cae1356c5067, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainGradationTex:
@@ -171,7 +171,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a3efd2f3a628ae448936ca53a03787c9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a0addc0fea9eb3459a4e7a4b464c47e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCap2ndBlendMask:
@@ -223,7 +223,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReceiveMaskTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 697318aec4d715c49bc4cae1356c5067, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionColorTex:
@@ -676,7 +676,7 @@ Material:
     - _UseBumpMap: 0
     - _UseClippingCanceller: 0
     - _UseDither: 0
-    - _UseEmission: 1
+    - _UseEmission: 0
     - _UseEmission2nd: 0
     - _UseGlitter: 0
     - _UseMain2ndTex: 0
@@ -686,10 +686,10 @@ Material:
     - _UseOutline: 0
     - _UsePOM: 0
     - _UseParallax: 0
-    - _UseReflection: 1
+    - _UseReflection: 0
     - _UseRim: 0
     - _UseRimShade: 0
-    - _UseShadow: 1
+    - _UseShadow: 0
     - _VertexLightStrength: 0
     - _ZClip: 1
     - _ZTest: 4
@@ -754,7 +754,7 @@ Material:
     - _Main3rdTexDecalAnimation: {r: 1, g: 1, b: 1, a: 30}
     - _Main3rdTexDecalSubParam: {r: 1, g: 1, b: 0, a: 1}
     - _Main3rdTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
-    - _MainTexHSVG: {r: -0.5, g: 1, b: 2, a: 2}
+    - _MainTexHSVG: {r: 0, g: 1, b: 1, a: 1}
     - _MainTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndColor: {r: 1, g: 1, b: 1, a: 0.05}
