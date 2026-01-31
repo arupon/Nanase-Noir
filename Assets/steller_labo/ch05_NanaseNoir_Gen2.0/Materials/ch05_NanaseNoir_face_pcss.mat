@@ -13,8 +13,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _ISON_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -563,7 +562,7 @@ Material:
     - _Parallax: 0.02
     - _ParallaxOffset: 0.5
     - _PlusNormalOffset: 0.015
-    - _ReceiveMaskStrength: 1
+    - _ReceiveMaskStrength: 0.5
     - _Reflectance: 0.6
     - _ReflectionApplyTransparency: 1
     - _ReflectionBlendMode: 1
@@ -744,7 +743,7 @@ Material:
     - _Main2ndDissolvePos: {r: 0, g: 0, b: 0, a: 0}
     - _Main2ndDistanceFade: {r: 0.1, g: 0.01, b: 0, a: 0}
     - _Main2ndTexDecalAnimation: {r: 1, g: 1, b: 1, a: 30}
-    - _Main2ndTexDecalSubParam: {r: 1, g: 1, b: 0, a: 1}
+    - _Main2ndTexDecalSubParam: {r: 1, g: 1, b: 0.01, a: 1}
     - _Main2ndTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _Main3rdDissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _Main3rdDissolveNoiseMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}

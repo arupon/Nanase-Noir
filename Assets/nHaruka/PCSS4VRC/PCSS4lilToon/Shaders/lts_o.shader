@@ -1,4 +1,4 @@
-Shader "Hidden/PCSS4VRC/PCSS4lilToon/OpaqueOutline"
+Shader "Hidden/lilToonOutline"
 {
     Properties
     {
@@ -36,6 +36,8 @@ Shader "Hidden/PCSS4VRC/PCSS4lilToon/OpaqueOutline"
         [lilToggle]     _UseDither                  ("sDither", Int) = 0
         [NoScaleOffset] _DitherTex                  ("Dither", 2D) = "white" {}
                         _DitherMaxValue             ("Max Value", Float) = 255
+                        _EnvRimBorder               ("[VRCLV] Rim Border", Range(0, 3)) = 3.0
+                        _EnvRimBlur                 ("[VRCLV] Rim Blur", Range(0, 1)) = 0.35
 
         //----------------------------------------------------------------------------------------------------------------------
         // Main
@@ -524,43 +526,6 @@ Shader "Hidden/PCSS4VRC/PCSS4lilToon/OpaqueOutline"
         [lilToggle]     _UDIMDiscardRow0_0          ("", Int) = 0
 
         //----------------------------------------------------------------------------------------------------------------------
-        // Encryption
-        [lilToggle]     _IgnoreEncryption           ("sIgnoreEncryption", Int) = 0
-                        _Keys                       ("sKeys", Vector) = (0,0,0,0)
-                        _BitKey0                    ("_BitKey0", Float) = 0
-                        _BitKey1                    ("_BitKey1", Float) = 0
-                        _BitKey2                    ("_BitKey2", Float) = 0
-                        _BitKey3                    ("_BitKey3", Float) = 0
-                        _BitKey4                    ("_BitKey4", Float) = 0
-                        _BitKey5                    ("_BitKey5", Float) = 0
-                        _BitKey6                    ("_BitKey6", Float) = 0
-                        _BitKey7                    ("_BitKey7", Float) = 0
-                        _BitKey8                    ("_BitKey8", Float) = 0
-                        _BitKey9                    ("_BitKey9", Float) = 0
-                        _BitKey10                   ("_BitKey10", Float) = 0
-                        _BitKey11                   ("_BitKey11", Float) = 0
-                        _BitKey12                   ("_BitKey12", Float) = 0
-                        _BitKey13                   ("_BitKey13", Float) = 0
-                        _BitKey14                   ("_BitKey14", Float) = 0
-                        _BitKey15                   ("_BitKey15", Float) = 0
-                        _BitKey16                   ("_BitKey16", Float) = 0
-                        _BitKey17                   ("_BitKey17", Float) = 0
-                        _BitKey18                   ("_BitKey18", Float) = 0
-                        _BitKey19                   ("_BitKey19", Float) = 0
-                        _BitKey20                   ("_BitKey20", Float) = 0
-                        _BitKey21                   ("_BitKey21", Float) = 0
-                        _BitKey22                   ("_BitKey22", Float) = 0
-                        _BitKey23                   ("_BitKey23", Float) = 0
-                        _BitKey24                   ("_BitKey24", Float) = 0
-                        _BitKey25                   ("_BitKey25", Float) = 0
-                        _BitKey26                   ("_BitKey26", Float) = 0
-                        _BitKey27                   ("_BitKey27", Float) = 0
-                        _BitKey28                   ("_BitKey28", Float) = 0
-                        _BitKey29                   ("_BitKey29", Float) = 0
-                        _BitKey30                   ("_BitKey30", Float) = 0
-                        _BitKey31                   ("_BitKey31", Float) = 0
-
-        //----------------------------------------------------------------------------------------------------------------------
         // Outline
         [lilHDR]        _OutlineColor               ("sColor", Color) = (0.6,0.56,0.73,1)
                         _OutlineTex                 ("Texture", 2D) = "white" {}
@@ -603,6 +568,10 @@ Shader "Hidden/PCSS4VRC/PCSS4lilToon/OpaqueOutline"
         [HideInInspector]                               _BaseMap            ("Texture", 2D) = "white" {}
         [HideInInspector]                               _BaseColorMap       ("Texture", 2D) = "white" {}
         [HideInInspector]                               _lilToonVersion     ("Version", Int) = 45
+
+        //----------------------------------------------------------------------------------------------------------------------
+        // VRChat
+        _Ramp ("Shadow Ramp", 2D) = "white" {}
 
         //----------------------------------------------------------------------------------------------------------------------
         // Advanced
@@ -664,67 +633,17 @@ Shader "Hidden/PCSS4VRC/PCSS4lilToon/OpaqueOutline"
                                                         _OutlineOffsetUnits         ("sOffsetUnits", Float) = 0
         [lilColorMask]                                  _OutlineColorMask           ("sColorMask", Int) = 15
         [lilToggle]                                     _OutlineAlphaToMask         ("sAlphaToMask", Int) = 0
-        //----------------------------------------------------------------------------------------------------------------------
-        // Custom Properties
-        //_CustomVariable ("Custom Variable", Float) = 0
-
-        [Toggle] _IsOn ("IsOn", Float) = 1
-
-        [IntRange]Blocker_Samples("Blocker Samples", Range(4, 32)) = 12
-        [IntRange]PCF_Samples("Filter Samples", Range(8, 64)) = 24
-        Softness("Softness", Range(0, 0.005)) = 0.001
-        SoftnessFalloff("SoftnessFalloff", Range(0, 2)) = 1
-        SoftnessRange("SoftnessRange", Range(0, 0.001)) = 0.0001
-        MaxDistance("MaxDistance", Range(0, 1)) = 0.2
-        PenumbraWithMaxSamples("PenumbraWithMaxSamples", Range(1, 50)) = 5
-        Blocker_GradientBias("Blocker_GradientBias", Range(0, 0.001)) =  0.0002
-        PCF_GradientBias("PCF_GradientBias", Range(0, 0.001)) = 0.0002
-
-        _ReceiveMaskTex("ReceiveMask", 2D) = "white" {}
-        _ReceiveMaskStrength("ReceiveMaskStrength", Range(0,1)) = 1
-        _CastMaskTex("CastMask", 2D) = "white" {}
-        _CastMaskStrength("CastMaskStrength", Range(0,1)) = 1
-        _ShadowNormalBias("ShadowNormalBias", Range(0,0.01)) = 0.0025
-        _ShadowCasterBias("ShadowCasterBias", Range(0,0.1)) = 0.001
-        _ShadowCasterBiasOffset("ShadowCasterBiasOffset", Range(0,1)) = 0
-        _EnvLightStrength("EnvironmentLightStrength", Range(0,1)) = 0.2
-        _ShadowDistance("ShadowDistance", Range(0.01, 100)) = 10.0
-	    _ShadowClamp("ShadowClamp", Range(0, 1)) = 0
-        _ShadowDensity("ShadowDensity", Range(0, 1)) = 0.1
-        _NormalMapStrength("NormalMapStrength", Range(0, 1)) = 0.5
-
-	    _DropShadowColor("ShadowColor", Color) = (0,0,0)
-	    _EnvLightLevelTexture("EnvLightLevelTexture", 2D) = "white" {}
-	    _EnvLightAdjustLevel("EnvLightAdjustLevel", Range(0, 1)) = 1
-        _ShadowcoordzOffset("ShadowcoordzOffset", Range(0, 3)) = 0
-        _InterpolationStrength("InterpolationStrength", Range(0, 1)) = 1
-        _MinusNormalOffset("MinusNormalOffset", Range(0, 1)) = 0
-        _PlusNormalOffset("PlusNormalOffset", Range(0, 1)) = 0.01
-        _ShadingThreshold("ShadingThreshold", Range(0, 1)) = 0
-        _ShadingBlurRadius("ShadingBlurRadius", Range(0, 3)) = 3
-        _ShadingCutOffThreshold("ShadingCutOffThreshold", Range(0, 1)) = 1
-        _ShadingCutOffBlurRadius("ShadingCutOffThreshold", Range(0, 3)) = 0.8
-
-        //[Toggle] _EnableSurfaceSmoothing("EnableSurfaceSmoothing", Float) = 1
-
-        _ShadowColorOverrideTexture("ShadowColorOverrideTexture", 2D) = "white" {}
-        _ShadowColorOverrideStrength("ShadowColorOverrideStrength", Range(0,1)) = 0
-
-        _ShadowBiasMaskTexture("_ShadowBiasMaskTexture", 2D) = "white" {}
-        _ShadowBiasMaskStrength("_ShadowBiasMaskStrength", Range(0,1)) = 0
-
-        [HideInInspector]_IgnoreCookieTexture("IgnoreCookieTexture", 2D) = "black" {}
     }
 
     SubShader
     {
         Tags {"RenderType" = "Opaque" "Queue" = "Geometry"}
-        UsePass "Hidden/PCSS4VRC/PCSS4lilToon/ltspass_opaque/FORWARD"
-        UsePass "Hidden/PCSS4VRC/PCSS4lilToon/ltspass_opaque/FORWARD_OUTLINE"
-        UsePass "Hidden/PCSS4VRC/PCSS4lilToon/ltspass_opaque/FORWARD_ADD"
-        UsePass "Hidden/PCSS4VRC/PCSS4lilToon/ltspass_opaque/FORWARD_ADD_OUTLINE"
-        UsePass "Hidden/PCSS4VRC/PCSS4lilToon/ltspass_opaque/SHADOW_CASTER_OUTLINE"
-        UsePass "Hidden/PCSS4VRC/PCSS4lilToon/ltspass_opaque/META"
+        UsePass "Hidden/ltspass_opaque/FORWARD"
+        UsePass "Hidden/ltspass_opaque/FORWARD_OUTLINE"
+        UsePass "Hidden/ltspass_opaque/FORWARD_ADD"
+        UsePass "Hidden/ltspass_opaque/FORWARD_ADD_OUTLINE"
+        UsePass "Hidden/ltspass_opaque/SHADOW_CASTER_OUTLINE"
+        UsePass "Hidden/ltspass_opaque/META"
         Pass
         {
             Tags { "LightMode" = "Never" }
@@ -798,6 +717,6 @@ Shader "Hidden/PCSS4VRC/PCSS4lilToon/OpaqueOutline"
     }
     Fallback "Unlit/Texture"
 
-    CustomEditor "lilToon.PCSS4lilToonInspector"
+    CustomEditor "lilToon.lilToonInspector"
 }
 

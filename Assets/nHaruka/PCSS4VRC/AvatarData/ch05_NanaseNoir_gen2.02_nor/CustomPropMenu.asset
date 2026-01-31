@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Parameters: {fileID: 11400000, guid: 7144c4e08ccabef48b16acc6bde789e5, type: 2}
   controls:
-  - name: IsOn
+  - name: 
     icon: {fileID: 0}
     type: 102
     parameter:
